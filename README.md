@@ -12,7 +12,7 @@ Each project is mapped to real-world corporate tasks such as access management, 
 ### 1️⃣ IAM & Access Control Demo
 - **Description:** Created AWS IAM users, groups, and least-privilege policies. Simulated adding a new user, assigning appropriate permissions, and restricting unnecessary access.
 - **Skills Demonstrated:** Identity management, security best practices, AWS IAM.
-- **Files:** [View Documentation](projects/incident-simulation/Documentaion/KB.md)  
+- **Files:** [View Documentation](projects/iam-demo/Documentation.md)  
 - **Job Match:** Aligns with managing user access and ensuring compliance with security policies.
 
 ---
@@ -20,7 +20,7 @@ Each project is mapped to real-world corporate tasks such as access management, 
 ### 2️⃣ Incident Handling Simulation
 - **Description:** Simulated troubleshooting for a user unable to access a cloud system due to expired credentials.
 - **Includes:** Problem statement, troubleshooting steps, root cause, resolution, preventive measures.
-- **Files:** [View Incident Report](projects/Incident-Simulation/README.md)  
+- **Files:** [View Incident Report](projects/incident-simulation/Documentaion/KB.md)  
 - **Job Match:** Shows ability to diagnose and resolve IT issues efficiently.
 
 ---
