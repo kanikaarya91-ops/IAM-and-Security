@@ -66,23 +66,23 @@
 
 ## IAM Policy Example (JSON)
 
-Example: Read-only S3 policy for `Support` group:
-
 ```json
 {
-"Version": "2012-10-17",
-"Statement": [
- {
-   "Effect": "Allow",
-   "Action": [
-     "s3:GetObject",
-     "s3:ListBucket"
-   ],
-   "Resource": "*"
- }
-]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Describe*",
+        "s3:ListBucket",
+        "s3:GetObject",
+        "cloudwatch:GetMetricData"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
-
+```
 ##Troubleshooting
 | Issue                              | Possible Cause                             | Solution                                     |
 | ---------------------------------- | ------------------------------------------ | -------------------------------------------- |     |
