@@ -12,7 +12,7 @@ Each project is mapped to real-world corporate tasks such as access management, 
 ### 1️⃣ IAM & Access Control Demo
 - **Description:** Created AWS IAM users, groups, and least-privilege policies. Simulated adding a new user, assigning appropriate permissions, and restricting unnecessary access.
 - **Skills Demonstrated:** Identity management, security best practices, AWS IAM.
-- **Files:** [View Documentation](projects/IAM-Access-Control/README.md)  
+- **Files:** [View Documentation](projects/iam-demo/Documentation.md)  
 - **Job Match:** Aligns with managing user access and ensuring compliance with security policies.
 
 ---
