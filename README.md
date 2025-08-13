@@ -28,7 +28,7 @@ Each project is mapped to real-world corporate tasks such as access management, 
 ### 3️⃣ Monitoring & Alerts Setup
 - **Description:** Configured AWS CloudWatch to trigger an SNS email alert when EC2 CPU utilization exceeded 70%.
 - **Skills Demonstrated:** Cloud monitoring, alert setup, automation.
-- **Files:** [View Setup Guide](projects/Monitoring-Alerts/README.md)  
+- **Files:** [View Setup Guide](projects/monitoring-alerts/KBarticle.md)  
 - **Job Match:** Demonstrates proactive monitoring to ensure system health.
 
 ---
