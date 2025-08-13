@@ -83,17 +83,15 @@
   ]
 }
 ```
-##Troubleshooting
+## Troubleshooting
 
-
-| Issue                              | Possible Cause                             | Solution                                     |
-| ---------------------------------- | ------------------------------------------ | -------------------------------------------- |     |
+| Issue                          | Possible Cause                      | Solution                                       |
+|--------------------------------|-------------------------------------|------------------------------------------------|
 | User can access more than intended | Policy attached grants broader permissions | Review policies and adjust actions/resources |
-| User unable to perform any action  | No policies attached                       | Attach correct group or policy               |
+| User unable to perform any action | No policies attached               | Attach correct group or policy                |
 
 
-
-##References
+## References
 AWS KB: How do I create an IAM user and manage their permissions?
 AWS IAM Policy Reference: https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html
 
