@@ -47,7 +47,7 @@ In a production environment, a spike in CPU usage could impact performance. With
 - Choose `EC2-High-CPU-Alert` SNS topic.
 - Create the alarm.
   
-![Alarm Actions SNS](./Alarm-Actions-SNS.PNG)
+![Alarm Actions SNS](./High-CPU-Test.PNG)
 
 ---
 
