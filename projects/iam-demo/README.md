@@ -79,6 +79,16 @@ Troubleshooting common permission issues.
 - Managing permissions for multiple users effectively.
 
 ## Screenshots
-![Users Created](projects/iam-demo/PwdReset.PNG)
+
+![Users Created](/projects/iam-demo/Users.PNG)
+
+![User Login](/projects/iam-demo/userloginAndPerission.PNG)
+
+![User Acess](/projects/iam-demo/UserAccess.PNG)
+
+![User Password ](/projects/iam-demo/userpassword.PNG)
+
+![User Password Reset ](/projects/iam-demo/PwdReset.PNG)
+
 ---
 
