@@ -1,8 +1,6 @@
 # KB Article: Incident Handling – Expired AWS Access Keys
 
 **Author:** Kanika Arya  
-**Date:** YYYY-MM-DD  
-**Last Updated:** YYYY-MM-DD  
 **Category:** AWS IAM / Incident Management  
 **Purpose:** This document describes the steps to troubleshoot and resolve a user incident caused by expired AWS access keys.
 
