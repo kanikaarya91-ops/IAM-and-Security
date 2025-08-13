@@ -53,11 +53,9 @@ Access keys had expired and were not renewed in a timely manner.
 ---
 
 ## Screenshots
-_Add relevant screenshots here (AWS Console, CLI output, or key creation process)_:  
-
-![CLI Error Message](projects/incident-simulation/Documentaion/cli-error.png)
-![AWS Console - Access Keys](projects/incident-simulation/Documentaion/access-keys.png)  
-![Updated CLI Config](projects/incident-simulation/Documentaion/cli-update.png)
+![CLI Error Message](CLIEerror.PNG)
+![AWS Console - Access Keys](AccessKey.PNG)  
+![Updated CLI Config](CLIupdate.PNG)
 
 ---
 
