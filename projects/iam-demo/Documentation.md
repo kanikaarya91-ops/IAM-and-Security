@@ -37,7 +37,7 @@
 
 ### 3️⃣ Create an IAM User
 1. In **IAM**, go to **Users** → **Create user**.
-2. Enter username (e.g., `john.doe`).
+2. Enter username admin1,admin2,support1 etc
 3. Select **Provide user access to the AWS Management Console**.
 4. Set password:  
    - Choose **Custom password**.  
@@ -84,10 +84,14 @@
 }
 ```
 ##Troubleshooting
+
+
 | Issue                              | Possible Cause                             | Solution                                     |
 | ---------------------------------- | ------------------------------------------ | -------------------------------------------- |     |
 | User can access more than intended | Policy attached grants broader permissions | Review policies and adjust actions/resources |
 | User unable to perform any action  | No policies attached                       | Attach correct group or policy               |
+
+
 
 ##References
 AWS KB: How do I create an IAM user and manage their permissions?
