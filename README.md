@@ -7,15 +7,6 @@ This portfolio showcases my technical skills, problem-solving ability, and docum
 Each project is mapped to real-world corporate tasks such as access management, troubleshooting, monitoring, and creating knowledge base articles.
 
 ---
-
-## 📌 About Me
-- **Location:** Hamilton, New Zealand
-- **Background:** Former Implementation Engineer with strong cloud computing and IT support skills.
-- **Focus Areas:** AWS, IAM, monitoring, troubleshooting, documentation.
-- **Career Goal:** Provide reliable, efficient IT support and contribute to secure, well-documented cloud environments.
-
----
-
 ## 📂 Portfolio Projects
 
 ### 1️⃣ IAM & Access Control Demo
