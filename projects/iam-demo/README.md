@@ -80,14 +80,20 @@ Troubleshooting common permission issues.
 
 ## Screenshots
 
-![Users Created](/projects/iam-demo/Users.PNG)
+1. User Created
+   
+    ![Users Created](/projects/iam-demo/Users.PNG)
 
-![User Login](/projects/iam-demo/userloginAndPerission.PNG)
+2. Login with new user
+![User Login](/projects/iam-demo/userloginAndPerissions.PNG)
 
-![User Acess](/projects/iam-demo/UserAccess.PNG)
+3. Check the user on the top-right corner 
+![User Access](/projects/iam-demo/UserAccess.PNG)
 
+4.Download the csv file for credentials.
 ![User Password ](/projects/iam-demo/userpassword.PNG)
 
+5. Change/Reset password from security credentials of user
 ![User Password Reset ](/projects/iam-demo/PwdReset.PNG)
 
 ---
