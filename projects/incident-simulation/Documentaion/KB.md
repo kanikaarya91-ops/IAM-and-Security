@@ -17,7 +17,7 @@
 ## Problem Statement
 The user could not access AWS resources using the CLI. Error messages indicated **expired credentials**.
 
-![CLI Error Message](projects/incident-simulation/cli-error.png)
+![CLI Error Message](projects/incident-simulation/Documentaion/cli-error.png)
 
 ---
 
@@ -27,7 +27,7 @@ The user could not access AWS resources using the CLI. Error messages indicated 
 3. Checked **Access Keys** and confirmed that the keys were expired.  
 4. Generated new **Access Keys** for the user.  
 
-![AWS Console - Access Keys](projects/incident-simulation/access-keys.png)
+![AWS Console - Access Keys](projects/incident-simulation/Documentaion/access-keys.png)
 
 5. Guided the user to update their local AWS CLI configuration with the new keys using:  
 ```bash
