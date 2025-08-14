@@ -122,4 +122,25 @@ The time-based policy example in this guide uses a fixed date. As a result, acce
 2. **SCP Approach**
    - If using AWS Organizations, SCPs can enforce daily access conditions with `aws:CurrentTime` combined with day-of-week conditions.
 
+## Time-Based Access Automation Flow
+
+```text
+CloudWatch Event (9 AM daily)
+          |
+          v
+   Lambda Function
+(Attach IAM Policy)
+          |
+          v
+   User has S3 Access
+
+CloudWatch Event (5 PM daily)
+          |
+          v
+   Lambda Function
+(Detach IAM Policy)
+          |
+          v
+   User Access Revoked
+
 
