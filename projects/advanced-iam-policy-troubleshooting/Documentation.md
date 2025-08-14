@@ -105,3 +105,21 @@ Restricts access to specific IP addresses.
 ## References
 - [AWS IAM Policy Simulator Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html)
 - [AWS CloudTrail Documentation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
+
+## Time-Based Policy Limitation
+
+The time-based policy example in this guide uses a fixed date. As a result, access will only be allowed on that date.
+
+### Why it matters
+- Testing on other days will result in denied access.
+- Shows the importance of understanding IAM condition keys and their limitations.
+
+### Workaround for real-world use
+1. **Automation Approach**
+   - Create a CloudWatch Event (Scheduled Rule) that triggers at 9 AM every day.
+   - Lambda function attaches the IAM policy allowing access.
+   - CloudWatch Event triggers at 5 PM to detach the policy.
+2. **SCP Approach**
+   - If using AWS Organizations, SCPs can enforce daily access conditions with `aws:CurrentTime` combined with day-of-week conditions.
+
+
