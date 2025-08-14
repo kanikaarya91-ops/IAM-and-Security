@@ -29,13 +29,12 @@ Covers IAM policy conditions such as time-based access and IP restrictions for A
         }
     ]
 }
-'''
+```
+
 ### IP Restriction Policy
 Restricts access to specific IP addresses.
 
 ``` json
-Copy
-Edit
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -49,7 +48,9 @@ Edit
             }
         }
     ]
-}```
+}
+```
+
 ## Step 2 – Assign Policies to IAM Users
 - Create a new IAM user.
 - Attach the conditional policies created above.
@@ -81,12 +82,25 @@ Edit
 - Use Policy Simulator before applying policies in production.
 
 ## Screenshots
-- Time-Based Policy: `Policy-TimeBased.PNG`
-- IP Restriction Policy: `Policy-IPRestriction.PNG`
-- IAM Policy Simulator Allowed: `Policy-Simulator-Allowed.PNG`
-- IAM Policy Simulator Denied: `Policy-Simulator-Denied.PNG`
-- CloudTrail Access Denied: `CloudTrail-AccessDenied.PNG`
-- Updated Policy JSON: `Policy-JSON-Update.PNG`
+
+### Time-Based Policy
+![Time-Based Policy](./Policy-TimeBased.PNG)
+
+### IP Restriction Policy
+![IP Restriction Policy](./Policy-IPRestriction.PNG)
+
+### IAM Policy Simulator - Allowed
+![Policy Simulator Allowed](./Policy-Simulator-Allowed.PNG)
+
+### IAM Policy Simulator - Denied
+![Policy Simulator Denied](./Policy-Simulator-Denied.PNG)
+
+### CloudTrail Access Denied Event
+![CloudTrail Access Denied](./CloudTrail-AccessDenied.PNG)
+
+### Updated Policy JSON
+![Policy JSON Update](./Policy-JSON-Update.PNG)
+
 
 ## References
 - [AWS IAM Policy Simulator Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html)
