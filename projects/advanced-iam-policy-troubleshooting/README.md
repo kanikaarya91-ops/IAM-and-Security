@@ -46,6 +46,10 @@ A test user needs to access AWS services under specific conditions:
 - [AWS IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html)
 - [AWS CloudTrail Documentation](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
 
+## Time-Based Policy Limitation
+
+The time-based policy example in this guide uses a fixed date. As a result, access will only be allowed on that date.
+
 ## Screenshots
 
 ### Time-Based Policy
