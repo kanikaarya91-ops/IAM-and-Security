@@ -39,12 +39,12 @@ Restricts access to specific IP addresses.
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "AllowSpecificIP",
-            "Effect": "Allow",
+            "Sid": "DenyIfNotMyIP",
+            "Effect": "Deny",
             "Action": "s3:*",
             "Resource": "*",
             "Condition": {
-                "IpAddress": {"aws:SourceIp": "203.0.113.0/24"}
+                "NotIpAddress": {"aws:SourceIp":"49.43.128.95/32"}
             }
         }
     ]
